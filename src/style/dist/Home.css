@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.outer {
+  overflow: hidden;
+  font-family: "PeaceR";
+  background-color: #5f5f5f;
+  width: 100%;
+  height: calc(100vh - 64px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.outer .first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 100%;
+}
+.outer .first img {
+  width: 400px;
+  height: 400px;
+}
+.outer .first .one {
+  width: 500px;
+  height: 400px;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translateZ(0);
+  }
+}
+.outer .second {
+  width: calc(100% - 40px);
+  height: 150px;
+  padding: 0 20px;
+  position: relative;
+  animation: fadeIn 5s;
+  color: white;
+}
+
+@media (max-width: 752px) {
+  .first {
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,27 @@
+.me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.me .OneWord {
+  font-size: 85px;
+  color: white;
+}
+.me .OneWord::first-line {
+  font-size: 35px;
+}
+
+@media (max-width: 890px) {
+  .me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 10px;
+  }
+  .me .OneWord {
+    font-size: 45px;
+  }
+  .me .OneWord::first-line {
+    font-size: 25px;
+  }
+}

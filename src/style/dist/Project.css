@@ -1,0 +1,165 @@
+.Project {
+  width: 100%;
+  height: calc(100vh - 64px);
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "PeaceR";
+}
+
+.Pline1,
+.Pline2 {
+  display: flex;
+}
+
+.Prob {
+  width: 240px;
+  height: 270px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+  margin-top: 30px;
+}
+
+.PRO {
+  position: relative;
+  width: 240px;
+  height: 270px;
+  overflow: hidden;
+  border: 7px solid;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+  background: white;
+}
+
+.proOne {
+  background: #a28040;
+  border-color: #ad6123;
+  box-shadow: 1px 1px 3px #5a4123;
+}
+
+.proTwo {
+  border-image: linear-gradient(45deg, #65d0d5, #fa7a9a) 1;
+}
+
+.proThree {
+  border-image: linear-gradient(45deg, #dd5b56, #b9ce94) 1;
+}
+
+.proFour {
+  border-color: gray;
+}
+
+.PRO img {
+  width: 100%;
+}
+
+.PRO figcaption {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  text-align: center;
+  line-height: 1.7em;
+  color: #fff;
+  font-size: 20px;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.PRO figcaption p {
+  font-size: 14px;
+  letter-spacing: 2px;
+  font-weight: 100;
+}
+
+.PRO figcaption em {
+  display: block;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.PRO:before,
+.PRO:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-top: 70px solid rgba(0, 0, 0, 0.4);
+  border-bottom: 70px solid rgba(0, 0, 0, 0.4);
+  transition: all 0.3s ease;
+  z-index: 1;
+  opacity: 0;
+}
+
+.PRO:before {
+  transform: scaley(2);
+}
+
+.PRO:after {
+  transform: scaley(2);
+}
+
+.PRO:hover:before,
+.PRO:hover:after {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.PRO:hover > img {
+  opacity: 0.7;
+}
+
+.PRO:hover figcaption {
+  opacity: 1;
+  transition-delay: 0.1s;
+}
+
+.proTwo figcaption p {
+  font-weight: bold;
+}
+
+.proThree figcaption p {
+  font-weight: bold;
+}
+
+.proFour figcaption p {
+  font-weight: bold;
+}
+
+@media (min-width: 920px) {
+  .Project {
+    flex-direction: row;
+  }
+
+  .Prob {
+    width: 200px;
+    height: 270px;
+  }
+}
+@media (max-width: 560px) {
+  .Pline1,
+.Pline2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Pline1 {
+    margin-top: 600px;
+  }
+
+  .Pline2 {
+    margin-bottom: 30px;
+  }
+}

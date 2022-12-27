@@ -1,0 +1,46 @@
+.me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .OneWord {
+    font-size: 85px;
+    color: white;
+  }
+
+  .OneWord::first-line {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 890px) {
+  .me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 10px;
+
+    .OneWord {
+      font-size: 45px;
+    }
+
+    .OneWord::first-line {
+      font-size: 25px;
+    }
+  }
+}
+// @media (max-width: 743px) {
+//   .me {
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+
+//     .OneWord {
+//       font-size: 30px;
+//     }
+
+//     .OneWord::first-line {
+//       font-size: 20px;
+//     }
+//   }
+// } ;

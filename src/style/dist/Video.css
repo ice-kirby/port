@@ -1,0 +1,10 @@
+.Video {
+  height: calc(100vh - 64px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Video video {
+  width: 80%;
+  max-height: calc(100vh - 64px);
+}

@@ -1,0 +1,141 @@
+.Product {
+  width: 100%;
+  height: calc(100vh - 64px);
+  display: flex;
+  justify-content: center;
+  font-family: "PeaceR";
+}
+
+.Pd-left {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 64px);
+  width: 250px;
+  align-items: center;
+  justify-content: space-around;
+  margin-right: 30px;
+  font-weight: bold;
+  font-size: 45px;
+  color: #ccc;
+}
+
+.left-one {
+  position: relative;
+
+  &:after {
+    content: "기획";
+    position: absolute;
+    left: 0;
+    top: 8.5px;
+    line-height: 1;
+    // display: block;
+    color: salmon;
+    width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    transition: 0.5s ease-out width;
+  }
+  &:hover::after {
+    width: 100%;
+  }
+}
+
+.left-two {
+  position: relative;
+
+  &:after {
+    content: "협업";
+    position: absolute;
+    left: 0;
+    top: 8.5px;
+    line-height: 1;
+    // display: block;
+    color: skyblue;
+    width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    transition: 0.5s ease-out width;
+  }
+  &:hover::after {
+    width: 100%;
+  }
+}
+
+.left-three {
+  position: relative;
+
+  &:after {
+    content: "소통";
+    position: absolute;
+    left: 0;
+    top: 8.5px;
+    line-height: 1;
+    // display: block;
+    color: #f2c120;
+    width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    transition: 0.5s ease-out width;
+  }
+  &:hover::after {
+    width: 100%;
+  }
+}
+
+.Pd-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 600px;
+
+  .Pd-wd {
+    font-size: 23px;
+    color: gray;
+    margin: 0 0 20px 20px;
+  }
+}
+.right-one {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 100px;
+
+  img {
+    width: 80px;
+  }
+}
+.right-two {
+  height: 240px;
+  margin: 25px 25px 0 25px;
+  font-size: 18px;
+  line-height: 28px;
+
+  .Sone {
+    border-bottom: 2px solid #f26728;
+  }
+  .Stwo {
+    border-bottom: 2px solid #2dabdd;
+  }
+  .SThree {
+    border-bottom: 2px solid #f2c120;
+  }
+}
+
+@media (max-width: 844px) {
+  .right-one {
+    margin-bottom: 90px;
+  }
+  .right-two {
+    height: 300px;
+  }
+}
+
+@media (max-width: 610px) {
+  .right-one {
+    margin-bottom: 70px;
+  }
+  .right-two {
+    margin: 0 25px;
+    height: 350px;
+  }
+}
