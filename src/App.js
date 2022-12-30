@@ -8,6 +8,7 @@ import Project from "./components/Project";
 import About from "./components/About";
 import Video from "./components/Video";
 import Contact from "./components/Contact";
+import Plan from "./components/Plan";
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,7 @@ const router = createBrowserRouter([
       { path: "/project", element: <Project /> },
       { path: "/contact", element: <Contact /> },
       { path: "/whatClothes", element: <Video /> },
+      { path: "/bbb", element: <Plan /> },
     ],
   },
 ]);

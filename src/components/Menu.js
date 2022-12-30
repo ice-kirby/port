@@ -21,6 +21,9 @@ const Menu = () => {
         <li>
           <Link to="/contact">.contact 📞</Link>
         </li>
+        <li>
+          <Link to="/bbb">bbb</Link>
+        </li>
       </ul>
     </div>
   );
