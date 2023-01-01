@@ -8,8 +8,8 @@ const Contact = () => {
       <img src="../medias/monitor2.jpg" alt="" />
 
       <div className="ConAll">
-        <span>velog :</span>
         <div>
+          <span>velog :</span>
           <Typing
             onDone={function noRefCheck() {}}
             preDelay={0}

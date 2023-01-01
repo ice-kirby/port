@@ -117,14 +117,18 @@
   }
   .PlOne-main,
   .PlOne-sub {
-    height: 35%;
+    height: 45%;
   }
   .PlTwo .joTwo {
     margin: 0 25px;
+    font-size: 14px;
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 414px) {
+  .PlOne {
+    font-size: 13px;
+  }
   .PlTwo .joOne {
     font-size: 20px;
   }
@@ -133,7 +137,7 @@
 @media (max-width: 379px) {
   .PlOne-main,
   .PlOne-sub {
-    height: 40%;
+    height: 50%;
   }
 }
 

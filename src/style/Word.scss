@@ -29,18 +29,21 @@
     }
   }
 }
-// @media (max-width: 743px) {
-//   .me {
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: center;
+@media (max-width: 743px) {
+  .me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px 0;
 
-//     .OneWord {
-//       font-size: 30px;
-//     }
+    .OneWord {
+      p {
+        font-size: 30px;
+      }
+    }
 
-//     .OneWord::first-line {
-//       font-size: 20px;
-//     }
-//   }
-// } ;
+    .OneWord::first-line {
+      font-size: 20px;
+    }
+  }
+} ;

@@ -31,3 +31,21 @@
 .ContactWord {
   cursor: url(../../public/medias/pointer1.png) 2 2, pointer;
 }
+
+@media (max-width: 573px) {
+  .ConAll div {
+    display: flex;
+  }
+  .ConAll div span {
+    font-size: 16px;
+    margin-right: 20px;
+  }
+}
+@media (max-width: 425px) {
+  .ConAll {
+    height: 130px;
+  }
+  .ConAll div {
+    margin-bottom: -20px;
+  }
+}

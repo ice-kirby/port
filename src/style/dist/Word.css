@@ -25,3 +25,17 @@
     font-size: 25px;
   }
 }
+@media (max-width: 743px) {
+  .me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px 0;
+  }
+  .me .OneWord p {
+    font-size: 30px;
+  }
+  .me .OneWord::first-line {
+    font-size: 20px;
+  }
+}
