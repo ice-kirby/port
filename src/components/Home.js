@@ -9,7 +9,7 @@ const Home = () => {
     <>
       <div className="outer">
         <div className="first">
-          <img src="../medias/computer2.jpg" />
+          <img src="../medias/computer2.jpg" alt="" />
           <Word />
         </div>
       </div>

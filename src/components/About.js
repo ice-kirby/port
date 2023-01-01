@@ -6,8 +6,8 @@ const About = () => {
     <div className="About">
       <div className="Aleft">
         <div className="Aphoto">
-          <img src="../medias/naeun.jpg" className="naeun" />
-          <img src="../medias/naeun-1.jpg" className="naeun1" />
+          <img src="../medias/naeun.jpg" className="naeun" alt="" />
+          <img src="../medias/naeun-1.jpg" className="naeun1" alt="" />
         </div>
 
         <div className="Aleft1">
