@@ -22,9 +22,12 @@
     padding: 0px 20px;
   }
 
-  span {
+  p {
     font-weight: bold;
     color: black;
+  }
+  span {
+    font-weight: bold;
   }
 }
 
@@ -49,6 +52,7 @@
   border: 7px solid;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
   background: white;
+  cursor: url(../../public/medias/pointer1.png) 2 2, pointer;
 }
 
 .proOne {

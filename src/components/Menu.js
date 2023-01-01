@@ -13,16 +13,13 @@ const Menu = () => {
           <Link to="/about">최나은.about</Link>
         </li>
         <li>
-          <Link to="/product">.plan 🎁</Link>
+          <Link to="/plan">.plan🧭</Link>
         </li>
         <li>
           <Link to="/project">.project 💌</Link>
         </li>
         <li>
           <Link to="/contact">.contact 📞</Link>
-        </li>
-        <li>
-          <Link to="/bbb">bbb</Link>
         </li>
       </ul>
     </div>

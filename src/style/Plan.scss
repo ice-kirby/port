@@ -7,11 +7,16 @@
 .PlOne {
   height: 330px;
   margin: 20px;
+
+  span {
+    font-weight: bold;
+  }
 }
 
 .PlOne-main,
 .PlOne-sub {
   height: 40%;
+  margin: 0 15px;
   .PlOne-logo {
     display: flex;
     margin: 10px 0;
@@ -32,9 +37,8 @@
     font-size: 25px;
     font-weight: bold;
     display: flex;
-    position: fixed;
     overflow: hidden;
-    top: 410px;
+
     div {
       margin-left: 10px;
       color: white;
@@ -69,11 +73,16 @@
     }
   }
 
+  .Plword-height {
+    height: 70px;
+  }
+
   .joTwo {
     height: 240px;
-    margin: 50px 25px 0 25px;
+    margin: 0 25px 0 25px;
     font-size: 18px;
     line-height: 28px;
+    // position: fixed;
 
     .Sone {
       border-bottom: 2px solid #f26728;
@@ -84,5 +93,58 @@
     .SThree {
       border-bottom: 2px solid #f2c120;
     }
+  }
+}
+
+@media (min-width: 1117px) {
+  .PlOne {
+    margin: 20px 100px;
+  }
+}
+
+@media (max-width: 522px) {
+  .PlOne {
+    img {
+      width: 18%;
+    }
+  }
+}
+
+@media (max-width: 463px) {
+  .PlOne {
+    font-size: 14px;
+    height: 300px;
+  }
+  .PlOne-main,
+  .PlOne-sub {
+    height: 35%;
+  }
+  .PlTwo .joTwo {
+    margin: 0 25px;
+  }
+}
+
+@media (max-width: 400px) {
+  .PlTwo .joOne {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 379px) {
+  .PlOne-main,
+  .PlOne-sub {
+    height: 40%;
+  }
+}
+
+@media (max-width: 329px) {
+  .PlTwo .joOne {
+    font-size: 18px;
+  }
+  .PlTwo .Plword-height {
+    height: 60px;
+  }
+  .PlTwo .joTwo {
+    font-size: 16px;
   }
 }

@@ -24,12 +24,18 @@
 .Pline4 .ProWord {
   padding: 0px 20px;
 }
+.Pline1 p,
+.Pline2 p,
+.Pline3 p,
+.Pline4 p {
+  font-weight: bold;
+  color: black;
+}
 .Pline1 span,
 .Pline2 span,
 .Pline3 span,
 .Pline4 span {
   font-weight: bold;
-  color: black;
 }
 
 .Pline1 {
@@ -54,6 +60,7 @@
   border: 7px solid;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
   background: white;
+  cursor: url(../../public/medias/pointer1.png) 2 2, pointer;
 }
 
 .proOne {

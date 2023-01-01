@@ -15,6 +15,7 @@ const Contact = () => {
             preDelay={0}
             str="https://velog.io/@gongwillson"
             onClick={() => window.open("https://velog.io/@gongwillson")}
+            className="ContactWord"
           />
         </div>
         <br />
@@ -27,6 +28,7 @@ const Contact = () => {
             onClick={() =>
               window.open("https://www.google.com/intl/ko/gmail/about/")
             }
+            className="ContactWord"
           />
         </div>
         <br />
@@ -37,6 +39,7 @@ const Contact = () => {
             preDelay={0}
             str="https://github.com/ice-kirby"
             onClick={() => window.open("https://github.com/ice-kirby")}
+            className="ContactWord"
           />
         </div>
       </div>
