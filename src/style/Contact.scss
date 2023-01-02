@@ -36,7 +36,7 @@
   @include point();
 }
 
-@media (max-width: 573px) {
+@media (max-width: 620px) {
   .ConAll {
     div {
       display: flex;
@@ -49,12 +49,29 @@
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 520px) {
   .ConAll {
     height: 130px;
 
     div {
       margin-bottom: -20px;
+
+      p {
+        font-size: 20px;
+      }
     }
   }
 }
+
+@media (max-width: 460px) {
+  .ConAll {
+    div {
+      span {
+        font-size: 13px;
+      }
+      p {
+        font-size: 15px;
+      }
+    }
+  }
+} ;

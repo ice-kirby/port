@@ -1,26 +1,25 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-const NavLinks = () => {
+const NavLinks = (props) => {
   return (
-    <div>
-      <ul>
-        <li>
-          <Link to="/">🏡</Link>
-        </li>
-        <li>
-          <Link to="/about">최나은.about</Link>
-        </li>
-        <li>
-          <Link to="/plan">.plan🧭</Link>
-        </li>
-        <li>
-          <Link to="/project">.project 💌</Link>
-        </li>
-        <li>
-          <Link to="/contact">.contact 📞</Link>
-        </li>
-      </ul>
-    </div>
+    <ul>
+      <li onClick={() => props.isHam && props.closeHamMenu()}>
+        <Link to="/">🏡</Link>
+      </li>
+      <li onClick={() => props.isHam && props.closeHamMenu()}>
+        <Link to="/about">최나은.about</Link>
+      </li>
+      <li onClick={() => props.isHam && props.closeHamMenu()}>
+        <Link to="/plan">.plan🧭</Link>
+      </li>
+      <li onClick={() => props.isHam && props.closeHamMenu()}>
+        <Link to="/project">.project 💌</Link>
+      </li>
+      <li onClick={() => props.isHam && props.closeHamMenu()}>
+        <Link to="/contact">.contact 📞</Link>
+      </li>
+    </ul>
   );
 };
 

@@ -11,3 +11,54 @@ a {
   font-family: "Peace";
   cursor: url(../../public/medias/pointer1.png) 2 2, pointer;
 }
+
+.NavBar .Hamburger {
+  display: none;
+}
+
+@media (max-width: 520px) {
+  .NavBar .Menu {
+    display: none;
+  }
+
+  .NavBar .Hamburger {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 64px;
+    .miniHam {
+      position: absolute;
+      right: 8%;
+      cursor: url(../../public/medias/pointer1.png) 2 2, pointer;
+    }
+
+    path {
+      cursor: url(../../public/medias/pointer1.png) 2 2, pointer;
+    }
+  }
+
+  .NavBar nav ul {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 99;
+    top: 43px;
+    right: 0;
+    width: 100%;
+    background: #868686cb;
+    border-top: 4px solid #32cece;
+
+    li {
+      padding-left: 40%;
+      margin: 5px 0;
+
+      a {
+        color: white;
+      }
+
+      a:hover {
+        color: #32cece;
+      }
+    }
+  }
+}

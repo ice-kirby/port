@@ -15,10 +15,12 @@ const About = () => {
           <br />
           신입 프론트엔드 개발자 최나은입니다.
         </div>
-        <p>생년월일 : 960229</p>
-        <p>별자리 : 물병자리</p>
-        <p>취미 : 소설 읽기, 게임하기</p>
-        <p>mbti : 설문조사 응하지 않는 성격이라 mbti 모름</p>
+        <div className="Aleft2">
+          <p>생년월일 : 960229</p>
+          <p>별자리 : 물고기자리</p>
+          <p>취미 : 소설 읽기, 게임하기</p>
+          <p>mbti : 설문조사 응하지 않는 성격이라 mbti 모름</p>
+        </div>
       </div>
       <div className="Aright">
         <div className="Abar"></div>
