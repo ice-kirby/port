@@ -2,10 +2,6 @@
   width: 100%;
   height: calc(100vh - 64px);
   overflow: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-family: "PeaceR";
 }
 
@@ -17,6 +13,7 @@
   align-items: center;
   max-width: 970px;
   color: gray;
+  margin: 0 auto;
 
   .ProWord {
     padding: 0px 20px;
@@ -29,10 +26,6 @@
   span {
     font-weight: bold;
   }
-}
-
-.Pline1 {
-  margin-top: 600px;
 }
 
 .Prob {
@@ -53,6 +46,26 @@
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
   background: white;
   cursor: url(../../public/medias/pointer1.png) 2 2, pointer;
+}
+
+.ProWord {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  .ProWord-box {
+    display: flex;
+
+    div {
+      margin-left: 15px;
+      // max-width: 470px;
+      p {
+        margin-bottom: 3px;
+        font-weight: normal;
+        color: #3e3e3e;
+      }
+    }
+  }
 }
 
 .proOne {
@@ -134,7 +147,35 @@
   transition-delay: 0.1s;
 }
 
-@media (max-width: 509px) {
+@media (max-width: 925px) {
+  .ProWord {
+    .ProWord-box {
+      display: flex;
+      flex-direction: column;
+
+      div {
+        margin-left: 15px;
+        // max-width: 470px;
+        p {
+          margin-bottom: 3px;
+          font-weight: normal;
+          color: #3e3e3e;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 760px) {
+  .Pline1,
+  .Pline2,
+  .Pline3,
+  .Pline4 {
+    margin: 20px auto;
+  }
+}
+
+@media (max-width: 580px) {
   .Pline1,
   .Pline2,
   .Pline3,
@@ -146,14 +187,12 @@
     .ProWord {
       font-size: 14px;
       margin: 5px 5px 25px 5px;
+      height: 350px;
 
       p {
         font-size: 15px;
         margin-bottom: -15px;
       }
     }
-  }
-  .Pline1 {
-    margin-top: 1400px;
   }
 }
