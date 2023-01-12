@@ -3,13 +3,12 @@ ul {
   display: flex;
   justify-content: space-around;
   margin: 20px auto;
-}
-
-a {
-  color: black;
-  text-decoration: none;
-  font-family: "Peace";
-  cursor: url(../../public/medias/pointer1.png) 2 2, pointer;
+  a {
+    color: black;
+    text-decoration: none;
+    font-family: "Peace";
+    cursor: url(../../public/medias/pointer1.png) 2 2, pointer;
+  }
 }
 
 .NavBar .Hamburger {

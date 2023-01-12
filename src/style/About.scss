@@ -4,46 +4,46 @@
   width: 100%;
   height: calc(100vh - 64px);
   font-family: "PeaceR";
-}
-.Aleft {
-  width: 60%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  .naeun {
-    width: 460px;
-  }
-  .Aphoto {
+  .Aleft {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     position: relative;
-    width: 470px;
+    .Aphoto {
+      position: relative;
+      width: 470px;
+      .naeun {
+        width: 460px;
+      }
+      .naeun1 {
+        display: none;
+        position: absolute;
+        width: 250px;
+        border-radius: 190px;
+        top: 50px;
+        right: 105px;
+        box-shadow: white 0px 0px 0px 2px, pink 4px 4px 6px -1px,
+          blue 0px 1px 0px inset;
+      }
+    }
+    .Aphoto:hover .naeun1 {
+      display: block;
+    }
+    .Aleft1 {
+      margin: 40px 0 0 0;
+      height: 100px;
+      font-size: 1.5em;
+    }
+    .Aleft1::before {
+      content: "👆";
+      position: absolute;
+      font-size: 15px;
+      left: 48%;
+      top: 59%;
+    }
   }
-  .Aphoto:hover .naeun1 {
-    display: block;
-  }
-  .Aleft1 {
-    margin: 40px 0 0 0;
-    height: 100px;
-    font-size: 1.5em;
-  }
-  .Aleft1::before {
-    content: "👆";
-    position: absolute;
-    font-size: 15px;
-    left: 48%;
-    top: 59%;
-  }
-}
-.naeun1 {
-  display: none;
-  position: absolute;
-  width: 250px;
-  border-radius: 190px;
-  top: 50px;
-  right: 105px;
-  box-shadow: white 0px 0px 0px 2px, pink 4px 4px 6px -1px,
-    blue 0px 1px 0px inset;
 }
 
 .Aright {
@@ -116,20 +116,20 @@
     flex-direction: column;
     overflow: auto;
     align-items: center;
-  }
-  .Aleft1 {
-    width: 240px;
-  }
-  .Aleft2 {
-    display: flex;
-    flex-direction: column;
-    width: 300px;
-    align-items: center;
-    margin-top: 20px;
-    p {
-      font-size: 14px;
-      margin-top: 2px;
-      color: #3e3e3e;
+    .Aleft1 {
+      width: 240px;
+    }
+    .Aleft2 {
+      display: flex;
+      flex-direction: column;
+      width: 300px;
+      align-items: center;
+      margin-top: 20px;
+      p {
+        font-size: 14px;
+        margin-top: 2px;
+        color: #3e3e3e;
+      }
     }
   }
 

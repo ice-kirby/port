@@ -2,96 +2,93 @@
   width: 100%;
   height: calc(100vh - 64px);
   font-family: "PeaceR";
-}
+  .PlOne {
+    height: 330px;
+    margin: 20px;
 
-.PlOne {
-  height: 330px;
-  margin: 20px;
-
-  span {
-    font-weight: bold;
-  }
-}
-
-.PlOne-main,
-.PlOne-sub {
-  height: 40%;
-  margin: 0 15px;
-  .PlOne-logo {
-    display: flex;
-    margin: 10px 0;
-
-    img {
-      margin-right: 5px;
+    span {
+      font-weight: bold;
     }
   }
-}
+  .PlOne-main,
+  .PlOne-sub {
+    height: 40%;
+    margin: 0 15px;
+    .PlOne-logo {
+      display: flex;
+      margin: 10px 0;
 
-.PlTwo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 10px;
-
-  .joOne {
-    font-size: 25px;
-    font-weight: bold;
-    display: flex;
-    overflow: hidden;
-
-    div {
-      margin-left: 10px;
-      color: white;
-      padding: 1px;
-
-      height: 30px;
-      margin-bottom: 30px;
-    }
-
-    .joOne-fir {
-      background-color: #dc143d;
-      animation: show 0.5s linear;
-    }
-    .joOne-sec {
-      background-color: #4ec7f3;
-      animation: show 0.5s linear both;
-      animation-delay: 0.5s;
-    }
-    .joOne-thi {
-      background-color: #42c58a;
-      animation: show 0.5s linear both;
-      animation-delay: 1s;
-    }
-
-    @keyframes show {
-      0% {
-        margin-top: -40px;
-      }
-      100% {
-        margin-top: 0px;
+      img {
+        margin-right: 5px;
       }
     }
   }
+  .PlTwo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
 
-  .Plword-height {
-    height: 70px;
-  }
+    .joOne {
+      font-size: 25px;
+      font-weight: bold;
+      display: flex;
+      overflow: hidden;
 
-  .joTwo {
-    height: 240px;
-    margin: 0 25px 0 25px;
-    font-size: 18px;
-    line-height: 28px;
-    // position: fixed;
+      div {
+        margin-left: 10px;
+        color: white;
+        padding: 1px;
 
-    .Sone {
-      border-bottom: 2px solid #f26728;
+        height: 30px;
+        margin-bottom: 30px;
+      }
+
+      .joOne-fir {
+        background-color: #dc143d;
+        animation: show 0.5s linear;
+      }
+      .joOne-sec {
+        background-color: #4ec7f3;
+        animation: show 0.5s linear both;
+        animation-delay: 0.5s;
+      }
+      .joOne-thi {
+        background-color: #42c58a;
+        animation: show 0.5s linear both;
+        animation-delay: 1s;
+      }
+
+      @keyframes show {
+        0% {
+          margin-top: -40px;
+        }
+        100% {
+          margin-top: 0px;
+        }
+      }
     }
-    .Stwo {
-      border-bottom: 2px solid #2dabdd;
+
+    .Plword-height {
+      height: 70px;
     }
-    .SThree {
-      border-bottom: 2px solid #f2c120;
+
+    .joTwo {
+      height: 240px;
+      margin: 0 25px 0 25px;
+      font-size: 18px;
+      line-height: 28px;
+      // position: fixed;
+
+      .Sone {
+        border-bottom: 2px solid #f26728;
+      }
+      .Stwo {
+        border-bottom: 2px solid #2dabdd;
+      }
+      .SThree {
+        border-bottom: 2px solid #f2c120;
+      }
     }
   }
 }
