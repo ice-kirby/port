@@ -94,13 +94,13 @@
 }
 
 @media (min-width: 1117px) {
-  .PlOne {
+  .Plan .PlOne {
     margin: 20px 100px;
   }
 }
 
 @media (max-width: 522px) {
-  .PlOne {
+  .Plan .PlOne {
     img {
       width: 18%;
     }
@@ -108,44 +108,46 @@
 }
 
 @media (max-width: 463px) {
-  .PlOne {
+  .Plan .PlOne {
     font-size: 14px;
     height: 300px;
   }
-  .PlOne-main,
-  .PlOne-sub {
+  .Plan .PlOne-main,
+  .Plan .PlOne-sub {
     height: 45%;
   }
-  .PlTwo .joTwo {
+  .Plan .PlTwo .joTwo {
     margin: 0 25px;
     font-size: 14px;
   }
 }
 
-@media (max-width: 414px) {
-  .PlOne {
+@media (max-width: 430px) {
+  .Plan .PlOne {
     font-size: 13px;
   }
-  .PlTwo .joOne {
-    font-size: 20px;
+  .Plan .PlTwo {
+    .joOne {
+      font-size: 20px;
+    }
   }
 }
 
 @media (max-width: 379px) {
-  .PlOne-main,
-  .PlOne-sub {
+  .Plan .PlOne-main,
+  .Plan .PlOne-sub {
     height: 50%;
   }
 }
 
 @media (max-width: 329px) {
-  .PlTwo .joOne {
+  .Plan .PlTwo .joOne {
     font-size: 18px;
   }
-  .PlTwo .Plword-height {
+  .Plan .PlTwo .Plword-height {
     height: 60px;
   }
-  .PlTwo .joTwo {
+  .Plan .PlTwo .joTwo {
     font-size: 16px;
   }
 }

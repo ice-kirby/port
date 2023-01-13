@@ -137,10 +137,9 @@
     width: 300px;
     height: 400px;
     margin-left: -20px;
-    margin-bottom: 100px;
 
     .Abar {
-      height: 300px;
+      height: 480px;
     }
     .Aword {
       width: 250px;
@@ -150,6 +149,9 @@
       p {
         margin: 0;
       }
+    }
+    .ArightThree {
+      padding-bottom: 50px;
     }
     .Aword::first-line {
       font-size: 20px;
