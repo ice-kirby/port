@@ -19,7 +19,7 @@ const Project = () => {
         <div className="ProWord">
           <p>&lt; 오늘 뭐 입어? &gt;</p>
           <br />
-          <p>
+          <p className="PRO-about">
             - 프로젝트 소개 : 오늘 입고 나갈 옷과 모자를 정할 수 있다. 옷을
             확정하면 현재 기온과 적절히 맞는 차림인지 체크하고, 기온에 맞는 옷을
             추천해준다.
@@ -57,7 +57,7 @@ const Project = () => {
         <div className="ProWord">
           <p>&lt; Todo-list &gt;</p>
           <br />
-          <p>
+          <p className="PRO-about">
             - 프로젝트 소개 : 아이스크림 트럭 컨셉으로 제작한 Todo-app.
             민트초코는 현재의 할 일, 블루레몬에이드는 완료된 칸이다.
           </p>
@@ -96,7 +96,7 @@ const Project = () => {
         <div className="ProWord">
           <p>&lt; MY diary &gt;</p>
           <br />
-          <p>
+          <p className="PRO-about">
             - 프로젝트 소개 : "캐릭캐릭체인지" 컨셉으로 제작한 일기장. 저장한
             일기는 왼쪽 버튼의 일기 목록에서 확인 가능하다.
           </p>
@@ -119,7 +119,7 @@ const Project = () => {
       <div className="Pline4">
         <div className="Prob">
           <figure className="PRO proFour">
-            <img src="../medias/ing.png" alt="" />
+            <img src="../medias/monit.png" alt="" />
             <figcaption>
               <em>Monit</em>
             </figcaption>
@@ -128,7 +128,7 @@ const Project = () => {
         <div className="ProWord">
           <p>&lt; Monit-Mecs &gt;</p>
           <br />
-          <p>
+          <p className="PRO-about">
             - 프로젝트 소개 : SeSAC에서 진행 중인 팀 프로젝트. monit 사이트의
             전체적인 수정을 맡았다.
           </p>

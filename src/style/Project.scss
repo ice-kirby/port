@@ -166,7 +166,7 @@
   }
 }
 
-@media (max-width: 580px) {
+@media (max-width: 650px) {
   .Pline1,
   .Pline2,
   .Pline3,
@@ -185,5 +185,8 @@
         margin-bottom: -15px;
       }
     }
+  }
+  .ProWord p.PRO-about {
+    margin-bottom: 4px;
   }
 }
