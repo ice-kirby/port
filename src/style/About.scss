@@ -39,9 +39,9 @@
     .Aleft1::before {
       content: "👆";
       position: absolute;
-      font-size: 15px;
+      font-size: 20px;
       left: 48%;
-      top: 59%;
+      top: 65%;
     }
   }
 }
@@ -62,7 +62,7 @@
 
   .Aword {
     padding-left: 100px;
-    padding-top: 80px;
+    padding-top: 60px;
     font-size: 18px;
     p {
       font-size: 15px;
@@ -130,6 +130,9 @@
         margin-top: 2px;
         color: #3e3e3e;
       }
+    }
+    .Aleft .Aleft1::before {
+      top: 71%;
     }
   }
 

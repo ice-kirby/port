@@ -6,6 +6,14 @@
   font-family: "PeaceR";
   src: url(../public/medias/PyeongChang-Regular.woff) format("woff");
 }
+@font-face {
+  font-family: "Neo";
+  src: url(../public/medias/NanumSquareNeoTTF-aLt.woff) format("woff");
+}
+@font-face {
+  font-family: "Neo2";
+  src: url(../public/medias/NanumSquareNeoTTF-bRg.woff) format("woff");
+}
 
 * {
   cursor: url(../public/medias/pointer.png) 2 2, default;

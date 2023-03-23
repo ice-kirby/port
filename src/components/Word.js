@@ -1,5 +1,5 @@
 import React from "react";
-import Typing, { TypingMultiline } from "react-kr-typing-anim";
+import { TypingMultiline } from "react-kr-typing-anim";
 import "../style/Word.scss";
 
 const Word = () => {

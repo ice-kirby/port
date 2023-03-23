@@ -16,12 +16,12 @@ const About = () => {
           <br />
           신입 프론트엔드 개발자 최나은입니다.
         </div>
-        <div className="Aleft2">
+        {/* <div className="Aleft2">
           <p>생년월일 : 960229</p>
           <p>별자리 : 물고기자리</p>
           <p>취미 : 소설 읽기, 게임하기</p>
           <p>mbti : 설문조사 응하지 않는 성격이라 mbti 모름</p>
-        </div>
+        </div> */}
       </div>
       <div className="Aright">
         <div className="Abar"></div>
@@ -46,13 +46,16 @@ const About = () => {
           </p>
         </div>
         <div className="Aword ArightThree">
-          2022.10 ~ ing
+          2022.10 ~ 2023.01
           <br />
           <span className="Asesac">청년취업사관학교 SeSAC </span>
           <p>기업연계형 프론트엔드 실무 프로젝트 과정 수강</p>
           <p className="Aword-p">
             <AiFillCaretRight />
             HTML, CSS, JS, TS, React 등 프론트엔드 개발 기술 학습 <br />
+            <AiFillCaretRight />
+            스터디와 인터넷 강의를 통해 매일 개인 추가 학습 진행
+            <br />
             <AiFillCaretRight />
             (주)모닛 홈페이지 리뉴얼 팀 프로젝트 개발 참여
           </p>
