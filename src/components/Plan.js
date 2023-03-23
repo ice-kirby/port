@@ -51,7 +51,10 @@ const Plan = () => {
               src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white"
               alt=""
             />
-
+            <img
+              src="http://img.shields.io/badge/figma-4A154B?style=for-the-badge&logo=figma&logoColor=white"
+              alt=""
+            />
             <img
               src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white"
               alt=""
